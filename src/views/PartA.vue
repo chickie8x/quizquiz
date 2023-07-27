@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import { questionsA } from '../assets/data'
+import { questionsA } from '../assets/dataA'
 import AnswerComponent from '../components/kits/Answer/index.vue'
 
 export default {
