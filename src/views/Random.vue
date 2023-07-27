@@ -13,7 +13,7 @@
             rightAns === idx ? '!bg-green-400 !text-green-800' : '',
             wrongAns === idx ? '!bg-red-400 !text-red-800' : ''
           ]"
-          @click="nextQuest(item, idx, currQuest)"
+          @click.once="nextQuest(item, idx, currQuest)"
         >
           <span
             class="mr-2 w-6 h-6 rounded-full flex justify-center items-center border-2 border-gray-500 text-gray-500"
@@ -76,21 +76,23 @@ export default {
     })
 
     const nextQuest = (item, idx, currQ) => {
+
       if (item.isCorrected) {
         rightAns.value = idx
         correctedList.value.push(currQ)
         setTimeout(function () {
           currIndex.value += 1
           rightAns.value = undefined
-        }, 2000)
+        }, 200)
       } else {
         wrongAns.value = idx
         wrongList.value.push({...currQ, wn:idx})
         setTimeout(function () {
           currIndex.value += 1
           wrongAns.value = undefined
-        }, 2000)
+        }, 200)
       }
+
     }
 
     const showModal = () =>{
@@ -113,7 +115,7 @@ export default {
       correctedList,
       modalDisplay,
       showModal,
-      aaa
+      aaa,
     }
   }
 }
