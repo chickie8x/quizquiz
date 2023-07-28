@@ -1353,7 +1353,7 @@ export const questionsB = [
       },
       {
         text: 'Phòng chống VPPL về BVMT là hoạt động của Đảng cộng sản Việt Nam, các tổ chức xã hội và công dân…',
-        isCorrected: true
+        isCorrected: false
       }
     ]
   },
