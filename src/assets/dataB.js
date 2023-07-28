@@ -2427,11 +2427,11 @@ export const questionsB = [
       },
       {
         text: 'Deep Web và Dark Web',
-        isCorrected: false
+        isCorrected: true
       },
       {
         text: 'Deep Web và White Web',
-        isCorrected: true
+        isCorrected: false
       }
     ]
   },
