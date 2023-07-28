@@ -35,16 +35,21 @@
         >
       </div>
 
-      <div class="min-w-[220px] text-red-500 w-fit bg-red-50 rounded-md p-4" >
+      <div class="min-w-[220px] text-red-500 w-fit bg-red-50 rounded-md p-4">
         <span
           >Số câu đã trả lời sai : <span class="font-bold">{{ wrongList.length }}</span></span
         >
       </div>
-      <button class="py-2 px-4 border-none outline-none bg-indigo-500 text-white rounded-md" @click="showModal">Danh sách các câu trả lời sai</button>
+      <button
+        class="py-2 px-4 border-none outline-none bg-indigo-500 text-white rounded-md"
+        @click="showModal"
+      >
+        Danh sách các câu trả lời sai
+      </button>
     </div>
 
     <!-- <Teleport to="body"> -->
-      <ModalList :questList="wrongList" :isDisplay="modalDisplay" @closeModal="aaa"/>
+    <ModalList :questList="wrongList" :isDisplay="modalDisplay" @closeModal="aaa" />
     <!-- </Teleport>x` -->
   </div>
 </template>
@@ -76,31 +81,33 @@ export default {
     })
 
     const nextQuest = (item, idx, currQ) => {
-
       if (item.isCorrected) {
         rightAns.value = idx
         correctedList.value.push(currQ)
         setTimeout(function () {
-          currIndex.value += 1
-          rightAns.value = undefined
+          if (currIndex.value < questData.length) {
+            currIndex.value += 1
+            rightAns.value = undefined
+          }
         }, 200)
       } else {
         wrongAns.value = idx
-        wrongList.value.push({...currQ, wn:idx})
+        wrongList.value.push({ ...currQ, wn: idx })
         setTimeout(function () {
-          currIndex.value += 1
-          wrongAns.value = undefined
+          if (currIndex.value < questData.length) {
+            currIndex.value += 1
+            wrongAns.value = undefined
+          }
         }, 200)
       }
-
     }
 
-    const showModal = () =>{
+    const showModal = () => {
       modalDisplay.value = true
     }
 
-    const aaa = () =>{
-      modalDisplay.value=false
+    const aaa = () => {
+      modalDisplay.value = false
     }
 
     return {
@@ -115,7 +122,7 @@ export default {
       correctedList,
       modalDisplay,
       showModal,
-      aaa,
+      aaa
     }
   }
 }

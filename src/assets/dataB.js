@@ -1920,5 +1920,1205 @@ export const questionsB = [
         isCorrected: true
       }
     ]
+  },
+
+  {
+    question: 'Phòng chống tội phạm được tiến hành theo những hướng cơ bản nào?',
+    ans: [
+      {
+        text: 'Phát hiện, khắc phục, hạn chế và đi đến thủ tiêu các hiện tượng xã hội tiêu cực ',
+        isCorrected: false
+      },
+      {
+        text: 'Hạn chế đến mức thấp nhất hậu quả, tác hại khi tội phạm xảy ra',
+        isCorrected: false
+      },
+      {
+        text: 'Chỉ tập chung sử lý những vụ án nghiêm trọng',
+        isCorrected: false
+      },
+      {
+        text: 'Cả ý 1 và 2',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Chủ thể của các tội xâm phạm danh dự, nhân phẩm của con người là ai?',
+    ans: [
+      {
+        text: 'Cá nhân và pháp nhân thương mại.',
+        isCorrected: false
+      },
+      {
+        text: 'Pháp nhân thương mai.',
+        isCorrected: false
+      },
+      {
+        text: 'Cá nhân.',
+        isCorrected: true
+      },
+      {
+        text: 'Cá nhân và tập thể.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Chủ thể trong hoạt động phòng chống tội phạm là ai?',
+    ans: [
+      {
+        text: 'Dân quân tự vệ',
+        isCorrected: false
+      },
+      {
+        text: 'Bộ đội địa phương',
+        isCorrected: false
+      },
+      {
+        text: 'Công dân.',
+        isCorrected: true
+      },
+      {
+        text: 'Bộ đội chủ lực',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nguyên tắc nào dưới đây là nguyên tắc trong hoạt động phòng chống tội phạm?',
+    ans: [
+      {
+        text: 'Nguyên tắc pháp chế.',
+        isCorrected: true
+      },
+      {
+        text: 'Nguyên tắc hợp hiến.',
+        isCorrected: false
+      },
+      {
+        text: 'Nguyên tắc phân quyền.',
+        isCorrected: false
+      },
+      {
+        text: 'Nguyên tắc hợp pháp.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Nội dung nào dưới đây nằm trong nội dung hoạt động phòng chống tội phạm xâm phạm danh dự, nhân phẩm?',
+    ans: [
+      {
+        text: 'Tổ chức tiến hành các hoạt động phòng ngừa tội phạm.',
+        isCorrected: true
+      },
+      {
+        text: 'Tổ chức tiến hành hoạt động văn hóa, văn nghệ, thể thao.',
+        isCorrected: false
+      },
+      {
+        text: 'Thường xuyên rà soát những địa bàn an ninh trật tự tốt.',
+        isCorrected: false
+      },
+      {
+        text: 'Hạn chế các hoạt động tập trung đông người.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Nội dung nào dưới đây nằm trong nội dung hoạt động phòng chống tội phạm xâm phạm danh dự, nhân phẩm?',
+    ans: [
+      {
+        text: 'Tổ chức tiến hành các hoạt động truy nã tội phạm.',
+        isCorrected: false
+      },
+      {
+        text: 'Tổ chức tiến hành các hoạt động giáo dục, cải tạo tội phạm.',
+        isCorrected: false
+      },
+      {
+        text: 'Tổ chức tiến hành hoạt động phát hiện, điều tra, xử lý tội phạm',
+        isCorrected: true
+      },
+      {
+        text: 'Tổ chức tiến hành hoạt động quản lý, giám sát tội phạm.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Nội dung nào dưới đây nằm trong khái niệm phòng chống tội phạm xâm phạm xâm phạm danh dự, nhân phẩm?',
+    ans: [
+      {
+        text: 'Phòng ngừa tội phạm là việc các cơ quan của Nhà nước, các tổ chức xã hội và công dân…',
+        isCorrected: true
+      },
+      {
+        text: 'Phòng ngừa tội phạm là việc các cơ quan công an…',
+        isCorrected: false
+      },
+      {
+        text: 'Phòng ngừa tội phạm là việc của Quân đội và Công an…',
+        isCorrected: false
+      },
+      {
+        text: 'Phòng ngừa tội phạm là việc của cơ quan bảo vệ pháp luật( Công an, Tòa án, Viện kiểm sát)…',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nguyên tắc nào dưới đây là nguyên tắc trong hoạt động phòng chống tội phạm?',
+    ans: [
+      {
+        text: 'Nguyên tắc pháp  chế',
+        isCorrected: false
+      },
+      {
+        text: 'Nguyên tắc nhân đạo',
+        isCorrected: false
+      },
+      {
+        text: 'Nguyên tắc dân chủ XHCN',
+        isCorrected: false
+      },
+      {
+        text: 'Cả 3 nguyên tắc trên',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question:
+      'Có bao nhiêu nguyên tắc tổ chức hoạt động phòng chống tội phạm xâm phạm nhân phẩm, danh dự?',
+    ans: [
+      {
+        text: '3 nguyên tắc',
+        isCorrected: false
+      },
+      {
+        text: '4 nguyên tắc ',
+        isCorrected: false
+      },
+      {
+        text: '5 nguyên tắc ',
+        isCorrected: false
+      },
+      {
+        text: '6 nguyên tắc ',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây thuộc khái niệm Danh dự ?',
+    ans: [
+      {
+        text: 'Danh dự là sự coi trọng, đánh giá cao của dư luận xã hội đối với một người dựa trên các giá trị tinh thần, đạo đức của người đó.',
+        isCorrected: true
+      },
+      {
+        text: 'Danh dự là sự thích thú, thừa nhận của dư luận xã hội đối với một người dựa trên các giá trị tinh thần, đạo đức của người đó.',
+        isCorrected: false
+      },
+      {
+        text: 'Danh dự là sự coi trọng, đánh giá cao của dư luận xã hội đối với một người dựa trên các giá trị vật chất của người đó.',
+        isCorrected: false
+      },
+      {
+        text: 'Danh dự là sự coi thường và khinh rẻ của dư luận xã hội đối với một người dựa trên các giá trị tinh thần, đạo đức của người đó.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Nội dung nào dưới đây thuộc biện pháp nâng cao hiệu quả công tác phòng ngừa tội phạm xâm phạm nhân phẩm, danh dự?',
+    ans: [
+      {
+        text: 'Các biện pháp về kinh tế - xã hội.',
+        isCorrected: true
+      },
+      {
+        text: 'Các biện pháp về dân tộc, tôn giáo.',
+        isCorrected: false
+      },
+      {
+        text: 'Các biện pháp về quốc phòng an ninh.',
+        isCorrected: false
+      },
+      {
+        text: 'Các biện pháp về đối ngoại.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Nội dung nào dưới đây thuộc biện pháp nâng cao hiệu quả công tác phòng ngừa tội phạm xâm phạm nhân phẩm, danh dự?',
+    ans: [
+      {
+        text: 'Tuyên truyền, phổ biến, giáo dục các quy định của Hiến pháp.',
+        isCorrected: false
+      },
+      {
+        text: 'Các biện pháp về văn hoá - giáo dục.',
+        isCorrected: true
+      },
+      {
+        text: 'Các biện pháp về chính trị - kinh tế.',
+        isCorrected: false
+      },
+      {
+        text: 'Các biện pháp về dân tộc, tôn giáo.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nguyên tắc nào dưới đây là nguyên tắc trong hoạt động phòng chống tội phạm?',
+    ans: [
+      {
+        text: 'Nguyên tắc nhân văn.',
+        isCorrected: false
+      },
+      {
+        text: 'Nguyên tắc nhân hóa.',
+        isCorrected: false
+      },
+      {
+        text: 'Nguyên tắc nhân đạo.',
+        isCorrected: true
+      },
+      {
+        text: 'Nguyên tắc đạo đức.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Trách nhiệm của sinh viên trong phòng, chống tội phạm xâm phạm nhân phẩm và danh dự?',
+    ans: [
+      {
+        text: 'Không xúc phạm nhân phẩm, danh dự, uy tín, xâm phạm thân thể đối với nhà giáo, cán bộ quản lý…',
+        isCorrected: false
+      },
+      {
+        text: 'Không gian lận trong học tập, thi, kiểm tra và làm giả hồ sơ để hưởng các chính sách đối với học sinh, sinh viên',
+        isCorrected: false
+      },
+      {
+        text: 'Không tự ý nghỉ học, nghỉ thực tập, thực hành khi chưa được sự đồng ý của Nhà trường.',
+        isCorrected: false
+      },
+      {
+        text: 'Cả 3 ý  trên',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Theo Luật An ninh mạng thì An ninh mạng là gì?',
+    ans: [
+      {
+        text: 'An ninh mạng là sự bảo đảm hoạt động trên không gian mạng, tránh bị truy nhập, sử dụng, tiết lộ, gián đoạn, sửa đổi hoặc phá hoại trái phép.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh mạng là sự bảo đảm hoạt động trên không gian mạng, nhằm bảo đảm tính nguyên vẹn, tính bảo mật và tính khả dụng của thông tin.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh mạng là sự bảo đảm hoạt động trên không gian mạng, không gây phương hại đến quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh mạng là sự bảo đảm hoạt động trên không gian mạng không gây phương hại đến ANQG, TTATXH, quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân.',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question:
+      'Luật An toàn thông tin mạng 2015 với mục đích bảo vệ sự an toàn thông tin trên mấy phương diện? ',
+    ans: [
+      {
+        text: '1 phương diện',
+        isCorrected: false
+      },
+      {
+        text: '2 phương diện',
+        isCorrected: false
+      },
+      {
+        text: '3 phương diện',
+        isCorrected: true
+      },
+      {
+        text: '4 phương diện',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'An toàn thông tin yêu cầu bảo đảm ba đặc điểm đó là?',
+    ans: [
+      {
+        text: 'Tính bí mật, tính toàn vẹn và tính nguyên vẹn.',
+        isCorrected: false
+      },
+      {
+        text: 'Tính bí mật, tính toàn vẹn và tính khả dụng.',
+        isCorrected: false
+      },
+      {
+        text: 'Tính nguyên vẹn, tính bảo mật và tính khả dụng.',
+        isCorrected: false
+      },
+      {
+        text: 'Tính bí mật, tính toàn vẹn và tính sẵn sàng.',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Luật An ninh mạng 2018 của Việt Nam có hiệu lực thi hành từ ngày, tháng, năm nào?',
+    ans: [
+      {
+        text: '1/1/2018',
+        isCorrected: false
+      },
+      {
+        text: '6/12/2018',
+        isCorrected: false
+      },
+      {
+        text: '1/1/2019',
+        isCorrected: true
+      },
+      {
+        text: '1/11/2019',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Có bao nhiêu hành vi vi phạm pháp luật trên không gian mạng?',
+    ans: [
+      {
+        text: '3 hành vi.',
+        isCorrected: false
+      },
+      {
+        text: '4 hành vi.',
+        isCorrected: false
+      },
+      {
+        text: '5 hành vi.',
+        isCorrected: false
+      },
+      {
+        text: '6 hành vi.',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Hành vi vi phạm pháp luật trên không gian mạng là hành vi nào?',
+    ans: [
+      {
+        text: 'Spam, tin giả trên mạng xã hội, thư điện tử.',
+        isCorrected: true
+      },
+      {
+        text: 'Quảng cáo sản phẩm trên mạng xã hội.',
+        isCorrected: false
+      },
+      {
+        text: 'Giao lưu kết bạn trên mạng xã hội.',
+        isCorrected: false
+      },
+      {
+        text: 'Mua, bán hàng hóa trên mạng xã hội.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Spam là gì?',
+    ans: [
+      {
+        text: 'Là những thông điệp vô nghĩa và tạo hứng thú cho người nhận.',
+        isCorrected: false
+      },
+      {
+        text: 'Là những thông điệp vô nghĩa và gây phiền toái cho người nhận, được gửi đến nhiều người với cùng một nội dung.',
+        isCorrected: true
+      },
+      {
+        text: 'Là những thông điệp có nghĩa và gây phiền toái cho người nhận, được gửi đến nhiều người với cùng một nội dung.',
+        isCorrected: false
+      },
+      {
+        text: 'Là những thông điệp được gửi đến nhiều người với cùng một nội dung.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Hành vi vi phạm pháp luật trên không gian mạng là hành vi nào?',
+    ans: [
+      {
+        text: 'Đăng tải các thông tin về lịch sử chiến tranh của dân tộc Việt Nam',
+        isCorrected: false
+      },
+      {
+        text: 'Sử dụng không gian mạng để kêu gọi từ thiện.',
+        isCorrected: false
+      },
+      {
+        text: 'Đăng tải các thông tin về ANQG, trật tự ATXH.',
+        isCorrected: false
+      },
+      {
+        text: 'Đăng tải các thông tin độc hại vi phạm ANQG, trật tự ATXH.',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Hành vi vi phạm pháp luật trên không gian mạng là hành vi nào?',
+    ans: [
+      {
+        text: 'Surface Web và Dark Web.',
+        isCorrected: false
+      },
+      {
+        text: 'World Wide Web',
+        isCorrected: false
+      },
+      {
+        text: 'Deep Web và Dark Web',
+        isCorrected: false
+      },
+      {
+        text: 'Deep Web và White Web',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Dark web là gì?',
+    ans: [
+      {
+        text: 'Là những nội dung mạng World Wide Web không thể truy cập bằng những cách thông thường mà phải sử dụng các phần mềm chuyên biệt.',
+        isCorrected: true
+      },
+      {
+        text: 'Là những nội dung mạng World Wide Web có thể truy cập bằng những cách thông thường và phải sử dụng các phần mềm chuyên biệt.',
+        isCorrected: false
+      },
+      {
+        text: 'Là những nội dung mạng World Wide Web có thể truy cập bằng những cách thông thường và không phải sử dụng các phần mềm chuyên biệt.',
+        isCorrected: false
+      },
+      {
+        text: 'Là những nội dung mạng World Wide Web không thể truy cập bằng những cách thông thường và không phải sử dụng các phần mềm chuyên biệt.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Phòng, chống VPPL trên không gian mạng dựa trên bao nhiêu cơ sở pháp lý?',
+    ans: [
+      {
+        text: '2 cơ sở.',
+        isCorrected: false
+      },
+      {
+        text: '3 cơ sở.',
+        isCorrected: true
+      },
+      {
+        text: '4 cơ sở.',
+        isCorrected: false
+      },
+      {
+        text: '5 cơ sở.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Phòng, chống VPPL trên không gian mạng dựa trên cơ sở pháp lý nào?',
+    ans: [
+      {
+        text: 'Bộ luật hình sự năm 2013',
+        isCorrected: false
+      },
+      {
+        text: 'Bộ luật hình sự năm 2014',
+        isCorrected: false
+      },
+      {
+        text: 'Bộ luật hình sự năm 2015',
+        isCorrected: true
+      },
+      {
+        text: 'Bộ luật hình sự năm 2016',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Phòng, chống VPPL trên không gian mạng dựa trên cơ sở pháp lý nào?',
+    ans: [
+      {
+        text: 'Luật An toàn thông tin năm 2015',
+        isCorrected: true
+      },
+      {
+        text: 'Luật An toàn thông tin năm 2016',
+        isCorrected: false
+      },
+      {
+        text: 'Luật An toàn thông tin năm 2017',
+        isCorrected: false
+      },
+      {
+        text: 'Luật An toàn thông tin năm 2018',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Phòng, chống VPPL trên không gian mạng dựa trên cơ sở pháp lý nào?',
+    ans: [
+      {
+        text: 'Luật An ninh mạng năm 2016',
+        isCorrected: false
+      },
+      {
+        text: 'Luật An ninh mạng năm 2017',
+        isCorrected: false
+      },
+      {
+        text: 'Luật An ninh mạng năm 2018',
+        isCorrected: true
+      },
+      {
+        text: 'Luật An ninh mạng năm 2019',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Tin giả được tạo ra bằng các hình thức tinh vi nào?',
+    ans: [
+      {
+        text: 'Giả tiếng. ',
+        isCorrected: false
+      },
+      {
+        text: 'Giả hình.',
+        isCorrected: false
+      },
+      {
+        text: 'Giả video.',
+        isCorrected: false
+      },
+      {
+        text: 'Cả 3 hình thức trên.',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Có bao nhiêu biện pháp trong phòng, chống VPPL trên không gian mạng?',
+    ans: [
+      {
+        text: '3 biện pháp.',
+        isCorrected: false
+      },
+      {
+        text: '4 biện pháp.',
+        isCorrected: false
+      },
+      {
+        text: '5 biện pháp.',
+        isCorrected: true
+      },
+      {
+        text: '6 biện pháp.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là biện pháp phòng, chống VPPL trên không gian mạng?',
+    ans: [
+      {
+        text: 'Giáo dục nâng cao nhận thức về bảo vệ chủ quyền QG, các lợi ích và sự nguy hại đến từ không gian mạng.',
+        isCorrected: true
+      },
+      {
+        text: 'Giáo dục nâng cao nhận thức về bảo vệ chủ quyền QG và giữ gìn trật tự ATXH.',
+        isCorrected: false
+      },
+      {
+        text: 'Giáo dục nâng cao nhận thức về bảo vệ lãnh thổ, chủ quyền, biên giới QG.',
+        isCorrected: false
+      },
+      {
+        text: 'Giao dục nâng cao nhận thức về bảo vệ chủ quyền QG trên đất liền, hải đảo, vùng biển và vùng trời.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là biện pháp phòng, chống VPPL trên không gian mạng?',
+    ans: [
+      {
+        text: 'Tuyên truyền, phổ biến, giáo dục các quy định của Hiến pháp.',
+        isCorrected: false
+      },
+      {
+        text: 'Tuyên truyền, phổ biến, giáo dục các quy định của pháp luật về quản lý không gian mạng.',
+        isCorrected: true
+      },
+      {
+        text: 'Tuyên truyền, phổ biến, giáo dục các quy định của pháp luật về quản lý tài sản cá nhân.',
+        isCorrected: false
+      },
+      {
+        text: 'Tuyên truyền, phổ biến, giáo dục các quy định của pháp luật về quản lý tài chính.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là biện pháp phòng, chống VPPL trên không gian mạng?',
+    ans: [
+      {
+        text: 'Bồi dưỡng kĩ năng nhận diện các âm mưu, thủ đoạn tấn công của kẻ thù.',
+        isCorrected: false
+      },
+      {
+        text: 'Bồi dưỡng kĩ năng nhận diện các âm mưu, thủ đoạn để nâng cao cảnh giác cánh mạng cho nhân dân.',
+        isCorrected: false
+      },
+      {
+        text: 'Bồi dưỡng kĩ năng nhận diện các âm mưu để vô hiệu hóa các thủ đoạn tấn công của kẻ thù.',
+        isCorrected: false
+      },
+      {
+        text: 'Bồi dưỡng kỹ năng nhận diện các âm mưu, thủ đoạn tấn công mạng và các hình thái phát sinh trên không gian mạng.',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'An toàn thông tin yêu cầu bảo đảm ba đặc điểm được mô hình hóa gọi là gì?',
+    ans: [
+      {
+        text: 'Tam giác bảo mật CIA',
+        isCorrected: true
+      },
+      {
+        text: 'Tam giác bảo mật CBA',
+        isCorrected: false
+      },
+      {
+        text: 'Tam giác bảo mật CID',
+        isCorrected: false
+      },
+      {
+        text: 'Tam giác bảo mật HIA',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây nằm trong quan niệm An ninh phi truyền thống trên thế giới?',
+    ans: [
+      {
+        text: 'An ninh phi truyền thống là an ninh quân sự',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh phi truyền thống là an ninh quốc phòng-an ninh',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh phi truyền thống là an ninh tôn giáo, dân tộc',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh phi truyền thống là an ninh tổng hợp',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây nằm trong quan niệm An ninh phi truyền thống ở Việt nam?',
+    ans: [
+      {
+        text: ' An ninh phi truyền thống là sự ổn định và phát triển bề vững của các lợi ích quốc gia cơ bản, quan trọng mang tính phi quân sự...',
+        isCorrected: true
+      },
+      {
+        text: ' An ninh phi truyền thống là sự ổn định và phát triển bề vững của các lợi ích quốc gia cơ bản, quan trọng mang tính quân sự...',
+        isCorrected: false
+      },
+      {
+        text: ' An ninh phi truyền thống là sự ổn định và phát triển bề vững của các lợi ích kinh tế, chính trị, xã hội...',
+        isCorrected: false
+      },
+      {
+        text: ' An ninh phi truyền thống là những mối đe dọa sự ổn định và phát triển bề vững của các lợi ích quốc gia cơ bản, quan trọng mang tính phi quân sự...',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'An ninh phi truyền thống có bao nhiêu đặc điểm?',
+    ans: [
+      {
+        text: '3 đặc điểm.',
+        isCorrected: false
+      },
+      {
+        text: '4 đặc điểm.',
+        isCorrected: false
+      },
+      {
+        text: '5 đặc điểm.',
+        isCorrected: true
+      },
+      {
+        text: '6 đặc điểm.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là đặc điểm của an ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'ANPTT bao gồm nhiều lĩnh vực khác nhau liên quan đến ANQG và khó đối phó hay giải quyết đơn phương bằng các biện pháp QS.',
+        isCorrected: true
+      },
+      {
+        text: 'ANPTT bao gồm nhiều lĩnh vực khác nhau liên quan đến ANQG và có thể giải quyết đơn phương bằng các biện pháp QS.',
+        isCorrected: false
+      },
+      {
+        text: 'ANPTT bao gồm anh ninh quân sự, an ninh chính trị và khó đối phó hay giải quyết đơn phương bằng các biện pháp QS.',
+        isCorrected: false
+      },
+      {
+        text: 'ANPTT bao gồm nhiều lĩnh vực khác nhau liên quan đến ANQG và khó đối phó hay giải quyết đơn phương bằng các biện pháp phi QS.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là đặc điểm của an ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'Các vấn đề của ANPTT có thể chia thành hai nhóm là bạo lực quân sự và phi bạo lực...',
+        isCorrected: false
+      },
+      {
+        text: 'Các vấn đề của ANPTT có thể chia thành hai nhóm là bạo lực phi quân sự và phi bạo lực...',
+        isCorrected: true
+      },
+      {
+        text: 'Các vấn đề của ANPTT có thể chia thành hai nhóm là bạo lực phi quân sự và bạo lực...',
+        isCorrected: false
+      },
+      {
+        text: 'Các vấn đề của ANPTT có thể chia thành hai nhóm là bạo lực quân sự và bạo lực...',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Nội dung nào dưới đây là nội dung thuộc mối quan hệ giữa an ninh truyền thống và an ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'Nhiều vấn đề an ninh phi truyền thống là hậu quả trực tiếp của các vấn đề an ninh truyền thống',
+        isCorrected: false
+      },
+      {
+        text: 'Một số vấn đề an ninh truyền thống có thể phát triển thành các vấn đề an ninh phi truyền thống',
+        isCorrected: false
+      },
+      {
+        text: ' Một số vấn đề an ninh phi truyền thống cũng có thể gây ra mâu thuẫn và xung đột trong an ninh truyền thống',
+        isCorrected: false
+      },
+      {
+        text: ' Cả 3 đáp án trên',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Đối tượng đe dọa xâm phạm an ninh phi truyền thống là gì?',
+    ans: [
+      {
+        text: 'Đe dọa sự tồn tại, phát triển bền vững của con người, xã hội, môi trường sống...',
+        isCorrected: true
+      },
+      {
+        text: 'Đe dọa chủ quyền lãnh thổ quốc gia, dân tộc.',
+        isCorrected: false
+      },
+      {
+        text: 'Đe dọa an ninh quốc gia.',
+        isCorrected: false
+      },
+      {
+        text: 'Đe dọa sức khỏe, tính mạng của con người.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là đặc điểm của an ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'Các vấn đề AN truyền thống ảnh hưởng và hủy hoại ANQG dần dần và lâu dài hơn so với các vấn đề AN phi truyền thống.',
+        isCorrected: false
+      },
+      {
+        text: 'Các vấn đề AN phi truyền thống là nói đến nguy cơ chiến tranh xâm lược hoặc xung đột vũ trag về biên giới lãnh hải.',
+        isCorrected: false
+      },
+      {
+        text: 'Các vấn đề AN phi truyền thống ảnh hưởng và hủy hoại ANQG dần dần và lâu dài hơn so với các vấn đề an ninh truyền thống.',
+        isCorrected: true
+      },
+      {
+        text: 'Các vấn đề AN phi truyền thống ảnh hưởng và hủy hoại ANQG ít hơn so với các vấn đề an ninh truyền thống.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'An ninh phi truyền thống có bao nhiêu nội dung?',
+    ans: [
+      {
+        text: '7 nội dung.',
+        isCorrected: false
+      },
+      {
+        text: '8 nội dung.',
+        isCorrected: false
+      },
+      {
+        text: '9 nội dung.',
+        isCorrected: true
+      },
+      {
+        text: '10 nội dung.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây KHÔNG phải là nội dung của An ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'Biến đổi khí hậu',
+        isCorrected: false
+      },
+      {
+        text: 'Chủ nghĩa khủng bố',
+        isCorrected: false
+      },
+      {
+        text: 'Vấn đề tôn giáo',
+        isCorrected: false
+      },
+      {
+        text: 'Vấn đề chiến tranh',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là nội dung của An ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'An ninh giao thông',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh quân sự',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh môi trường.',
+        isCorrected: true
+      },
+      {
+        text: 'Cả 3 đáp án trên',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là khái niệm của biến đổi khí hậu?',
+    ans: [
+      {
+        text: 'Là sự thay đổi thời tiết',
+        isCorrected: false
+      },
+      {
+        text: 'Là sự tăng nhiệt độ',
+        isCorrected: false
+      },
+      {
+        text: 'Là sự thay đổi có tính tiêu cực của trạng thái khí hậu so với trung bình',
+        isCorrected: true
+      },
+      {
+        text: 'Cả 3 đáp án trên',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là khái niệm của chủ nghĩa khủng bố?',
+    ans: [
+      {
+        text: 'Chủ nghĩa khủng bố là hệ tư tưởng tiêu cực lấy phương thức bạo lực là phương thức chính trong đòi hỏi các yêu sách, thỏa mãn các yêu cầu.',
+        isCorrected: true
+      },
+      {
+        text: 'Chủ nghĩa khủng bố là hệ tư tưởng tích cực lấy phương thức phi bạo lực là phương thức chính trong đòi hỏi các yêu sách, thỏa mãn các yêu cầu.',
+        isCorrected: false
+      },
+      {
+        text: 'Chủ nghĩa khủng bố là hệ tư tưởng tiêu cực lấy phương thức phi  bạo lực là phương thức chính trong đòi hỏi các yêu sách, thỏa mãn các yêu cầu.',
+        isCorrected: false
+      },
+      {
+        text: 'Chủ nghĩa khủng bố là hệ tư tưởng tích cực lấy phương thức bạo lực là phương thức chính trong đòi hỏi các yêu sách, thỏa mãn các yêu cầu.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là nội dung của An ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'An ninh chính trị.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh tài chính - tiền tệ.',
+        isCorrected: true
+      },
+      {
+        text: 'An ninh tài chính - kinh tế.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh kinh tế.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là nội dung của An ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'An ninh mạng.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh tư tưởng.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh thông tin.',
+        isCorrected: true
+      },
+      {
+        text: 'An ninh khoa học - kĩ thuật.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Có bao nhiêu giải pháp cơ bản để phòng ngừa, ứng phó với các mối đe dọa an ninh truyền thống ở Việt Nam?',
+    ans: [
+      {
+        text: '2 giải pháp.',
+        isCorrected: false
+      },
+      {
+        text: '3 giải pháp.',
+        isCorrected: false
+      },
+      {
+        text: '4 giải pháp.',
+        isCorrected: false
+      },
+      {
+        text: '5 giải pháp.',
+        isCorrected: true
+      }
+    ]
+  },
+
+  {
+    question:
+      'Nội dung nào dưới đây thuộc giải pháp cơ bản để phòng ngừa, ứng phó với các mối đe dọa an ninh truyền thống ở Việt Nam ',
+    ans: [
+      {
+        text: 'Phát huy các nguồn lực xã hội, tăng cường hợp tác với doanh nhiệp trong ứng phó với các mối đe dọa ANPTT.',
+        isCorrected: false
+      },
+      {
+        text: 'Phát huy các nguồn lực xã hội, tăng cường hợp tác giữa các tôn giáo trong ứng phó với các mối đe dọa ANPTT.',
+        isCorrected: false
+      },
+      {
+        text: 'Phát huy các nguồn lực xã hội, tăng cường hợp tác quốc tế trong ứng phó với các mối đe dọa ANPTT.',
+        isCorrected: true
+      },
+      {
+        text: 'Phát huy các nguồn lực xã hội, tăng cường hợp tác với các cá nhân và tổ chức trong ứng phó với các mối đe dọa ANPTT.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Không gian và phạm vi của mối đe dọa xâm phạm an ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'ANPTT có thể xuất phát từ nội tại một hoặc nhiều quốc gia sau đó có thể lan tỏa tới cả khu vực và toàn thế giới.',
+        isCorrected: true
+      },
+      {
+        text: 'ANPTT chủ yếu diễn ra giữa hai quốc gia, nhóm liên minh các quốc gia.',
+        isCorrected: false
+      },
+      {
+        text: 'ANPTT diễn ra trông không gian hẹp và phạm vi nhỏ.',
+        isCorrected: false
+      },
+      {
+        text: 'ANPTT xuất phát từ nội tại một quốc gia và không thể thể lan tỏa tới các quốc gia khác trong khu vực và trên thế giới.',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question: 'Nội dung nào dưới đây là nội dung của An ninh phi truyền thống?',
+    ans: [
+      {
+        text: 'An ninh chính trị.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh năng lượng.',
+        isCorrected: true
+      },
+      {
+        text: 'An ninh văn hóa.',
+        isCorrected: false
+      },
+      {
+        text: 'An ninh quân sự',
+        isCorrected: false
+      }
+    ]
+  },
+
+  {
+    question:
+      'Thách thức của an ninh phi truyền thống đối với Việt Nam là trên những lĩnh vực nào?',
+    ans: [
+      {
+        text: 'Lĩnh vực kinh tế, chính trị - xã hội và dân tộc - tôn giáo.',
+        isCorrected: false
+      },
+      {
+        text: 'Lĩnh vực kinh tế, chính trị - xã hội và quốc phòng - an ninh.',
+        isCorrected: true
+      },
+      {
+        text: 'Lĩnh vực văn hóa, chính trị - xã hội và quốc phòng - an ninh.',
+        isCorrected: false
+      },
+      {
+        text: 'Lĩnh vực kinh tế, văn hóa - tư tưởng và quốc phòng - an ninh.',
+        isCorrected: false
+      }
+    ]
   }
 ]
