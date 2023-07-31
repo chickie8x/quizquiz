@@ -1604,11 +1604,11 @@ export const questionsA = [
       },
       {
         text: 'Gắn quá trình phát triển nông nghiệp với xây dựng con người mới xã hội chủ nghĩa.',
-        isCorrected: true
+        isCorrected: false
       },
       {
         text: 'Biện pháp a và b.',
-        isCorrected: false
+        isCorrected: true
       }
     ]
   },
