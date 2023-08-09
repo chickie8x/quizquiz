@@ -37,11 +37,15 @@ export default {
     const currComponent = computed(() => {
       return currTab.value.component
     })
+    const setPages = (pages) => {
+      pages.value = pages
+    }
     return {
       tabs,
       currTab,
       tabActive,
-      currComponent
+      currComponent,
+      setPages
     }
   }
 }

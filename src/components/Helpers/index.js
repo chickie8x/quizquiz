@@ -30,3 +30,19 @@ export const shuffleArr = (arr) => {
   }
   return arr
 }
+
+export const pagination = (arr, items) => {
+  if (arr.length <= items) {
+    return [arr]
+  }
+  let ret = []
+  const pages = Math.floor(arr.length / items) + (arr.length % items)
+  let currIndex = 0
+  let lastIndex = currIndex + items
+  for (let i = 0; i < pages - 1; i++) {
+    ret.push(arr.slice(currIndex, lastIndex))
+    currIndex += items
+    lastIndex += items
+  }
+  return ret
+}
