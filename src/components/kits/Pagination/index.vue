@@ -1,11 +1,13 @@
 <template>
   <div>
     <div class="h-[510px] overflow-auto">
-        <component :is="currPage.components" v-bind="currPage.propsdata" :key="keyX"></component>
+      <keep-alive>
+        <QuestionList :items="currPage" :questsIndex="segmentIndex" :key="segmentIndex"></QuestionList>
+      </keep-alive>
     </div>
     <div class="flex space-x-4 items-center justify-center h-[40px]">
       <div v-for="pageIndex, idx in pages.length" :value="pageIndex+1" :key="idx" @click="pageSelected(idx)">
-        <span>{{ pageIndex }}</span>
+        <span :class="[pageIndex===segmentIndex+1?'text-red-500':'']">{{ pageIndex }}</span>
       </div>
     </div>
   </div>
@@ -14,7 +16,7 @@
 <script>
 import { pagination } from '../../Helpers'
 import  QuestionList  from '../ListQuests/index.vue'
-import { ref, shallowRef } from 'vue'
+import { ref } from 'vue'
 
 export default {
   name: 'PaginationComponent',
@@ -37,27 +39,17 @@ export default {
 
   setup(props){
     const pages = pagination(props.items, props.itemPerPage)
-    const pageItems =[]
-    for(let i=0; i<pages.length; i++){
-      pageItems.push({
-        components: shallowRef(QuestionList),
-        propsdata:{
-          items: pages[i],
-          questsIndex: i
-        }
-      })
-    }
-    const currPage = ref(pageItems[0])
+    const segmentIndex = ref(0)
+    const currPage = ref(pages[segmentIndex.value])
     const pageSelected = (pageNum) => {
-      currPage.value = pageItems[pageNum]
+      currPage.value = pages[pageNum]
+      segmentIndex.value = pageNum
     }
-    const keyX = ref(1)
     return {
       pages,
-      QuestionList,
       currPage,
-      pageSelected, 
-      keyX
+      pageSelected,
+      segmentIndex
       }
   }
 }
