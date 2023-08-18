@@ -1,27 +1,25 @@
 <template>
-  <div
-    v-for="(item, idx) in questionsA"
-    :key="idx"
-    class="border border-indigo-500 border-opacity-40 my-6 bg-indigo-50 rounded-lg overflow-hidden"
-  >
-    <span class="bg-indigo-500 text-white block px-2 py-4 rounded-t-md"
-      >Câu hỏi {{ idx + 1 }}: {{ item.question }}</span
-    >
-    <AnswerComponent :answer="item.ans" :index="idx + 1" />
+  <div>
+    <div>
+      <PaginationComponent :itemPerPage="itemPerPage" :items="questionsA" />
+    </div>
   </div>
 </template>
 
 <script>
 import { questionsA } from '../assets/dataA'
-import AnswerComponent from '../components/kits/Answer/index.vue'
+import PaginationComponent from '../components/kits/Pagination/index.vue'
 
 export default {
   name: 'PartA',
   components: {
-    AnswerComponent
+    PaginationComponent
   },
   setup() {
+    const itemPerPage = 10
+
     return {
+      itemPerPage,
       questionsA
     }
   }

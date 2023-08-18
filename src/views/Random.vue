@@ -50,7 +50,7 @@
 
     <!-- <Teleport to="body"> -->
     <ModalList :questList="wrongList" :isDisplay="modalDisplay" @closeModal="aaa" />
-    <!-- </Teleport>x` -->
+    <!-- </Teleport> -->
   </div>
 </template>
 
