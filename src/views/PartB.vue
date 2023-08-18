@@ -1,38 +1,26 @@
 <template>
   <div>
-    <QuestionList :items="segment" :questsIndex="currPage" />
+    <div>
+      <PaginationComponent :itemPerPage="itemPerPage" :items="questionsB" />
+    </div>
   </div>
 </template>
 
 <script>
-import { computed, provide, ref } from 'vue'
-import { pagination } from '../components/Helpers/index'
 import { questionsB } from '../assets/dataB'
-import QuestionList from '../components/kits/ListQuests/index.vue'
-import { questionStateB } from '../stores/'
+import PaginationComponent from '../components/kits/Pagination/index.vue'
 
 export default {
-  name: 'PartA',
+  name: 'PartB',
   components: {
-    QuestionList
+    PaginationComponent
   },
   setup() {
-    const currPage = ref(0)
-    const pages = pagination(questionsB, 10)
-    const segment = computed(() => {
-      return pages[currPage.value]
-    })
-
-    const store = questionStateB()
-
-    provide('type', 'B')
+    const itemPerPage = 10
 
     return {
-      questionsB,
-      pages,
-      currPage,
-      segment,
-      store
+      itemPerPage,
+      questionsB
     }
   }
 }
